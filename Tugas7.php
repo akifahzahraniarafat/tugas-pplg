@@ -1,8 +1,8 @@
 <?php
-$akifahsehat = "sehat";
-$walinyasehat = "sehat";
+$akifahsehat = true;
+$walinyasehat = true;
 
-if($akifahsehat == "sehat" && $walinyasehat == "sehat"){
+if($akifahsehat && $walinyasehat){
     echo"maka akifah berangkat sekolah";
 }else{
     echo "maka akifah tidak masuk sekolah";
